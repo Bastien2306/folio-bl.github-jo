@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bastien Lamy - CV</title>
+    <style>
+        /* Style général */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            color: #333;
+            background: #f4f4f4;
+        }
+
+        header {
+            background: #0078D7;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header .container {
+            width: 90%;
+            margin: auto;
+        }
+
+        header img.profile-photo {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin: 10px auto;
+            border: 5px solid #fff;
+        }
+
+        header h1 {
+            margin: 10px 0;
+            font-size: 2.2em;
+        }
+
+        header p {
+            font-size: 1.2em;
+            font-weight: 300;
+        }
+
+        /* Navigation */
+        nav {
+            background: #004D99;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.1em;
+            padding: 10px 15px;
+            display: block;
+        }
+
+        nav ul li a:hover {
+            background: #0078D7;
+            border-radius: 5px;
+        }
+
+        /* Sections */
+        main {
+            width: 90%;
+            margin: auto;
+            padding: 20px 0;
+        }
+
+        section {
+            background: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            font-size: 1.8em;
+            color: #0078D7;
+            margin-bottom: 10px;
+        }
+
+        section p, section ul {
+            margin: 10px 0;
+            font-size: 1.1em;
+        }
+
+        section ul li {
+            margin: 5px 0;
+        }
+
+        section ul li ul {
+            margin-left: 20px;
+        }
+
+        /* Footer */
+        footer {
+            background: #004D99;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 0.9em;
+        }
+
+        /* Responsiveness */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.8em;
+            }
+
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav ul li {
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="photo.jpg" alt="Photo de Bastien Lamy" class="profile-photo">
+            <h1>Bastien LAMY</h1>
+            <p>Étudiant en Licence Professionnelle Commercialisation des Produits et Services Sportifs</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#formations">Formation</a></li>
+            <li><a href="#experience-pro">Expériences professionnelles</a></li>
+            <li><a href="#benevolat">Bénévolat</a></li>
+            <li><a href="#competences">Compétences</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="formations">
+            <h2>Formations</h2>
+            <p><strong>2022/2025 :</strong> Licence Professionnelle Commercialisation des Produits et Services Sportifs à l’ILEPS (95)</p>
+            <p><strong>2022 :</strong> BAC STMG, spécialité mercatique, mention Assez Bien, Lycée Saint-Thomas de Villeneuve (78)</p>
+        </section>
+
+        <section id="experience-pro">
+            <h2>Expériences Professionnelles</h2>
+            <ul>
+                <li>
+                    <strong>Vendeur en apprentissage (Décathlon, Herblay) :</strong> 01/09/2023 - 31/08/2025
+                    <ul>
+                        <li>Accueil et conseil client</li>
+                        <li>Entretien de la surface de vente</li>
+                        <li>Réception des commandes</li>
+                        <li>Mise en rayon</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Vendeur stagiaire (Go Sport, La Défense) :</strong> 17/04/2023 - 10/06/2023
+                </li>
+                <li>
+                    <strong>Vendeur stagiaire (Airness, Paris) :</strong> 05/12/2022 - 28/01/2023
+                </li>
+            </ul>
+        </section>
+
+        <section id="benevolat">
+            <h2>Expériences de Bénévolat</h2>
+            <p><strong>Coach équipe de basket minimes :</strong> Encadrement, animation et gestion des matchs (2022).</p>
+        </section>
+
+        <section id="competences">
+            <h2>Compétences et Centres d’intérêt</h2>
+            <p><strong>Savoir-être :</strong> Sens des responsabilités, excellent relationnel, dynamisme.</p>
+            <p><strong>Centres d’intérêt :</strong> Basket-ball, photographie, voyages (Vietnam, USA, Canada, etc.), snowboard et ski.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p><strong>Adresse :</strong> 5 Domaine de l’Orée du Bois, 78600 Le Mesnil le Roi</p>
+            <p><strong>Téléphone :</strong> 07 68 76 98 21</p>
+            <p><strong>Email :</strong> bastienlamy0623@gmail.com</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Bastien Lamy. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
